@@ -1,34 +1,20 @@
-# RickMorty1
+# RickMorty2
 
-### En este proyecto he hecho una pàgina web sobre Rick y Morty con componentes de Angular. La pàgina web consta de varias vistas las quales tienen diferentes funcionalidades :
+### Esta es la continuación del proyecto de la web de Rick y Morty, esta vez en vez de usar un archivo .json como fuente de datos he creado un servicio y una pipe para recoger la información necesaria de la API de Rick y Morty:
 
-1- Vista del home que consiste en 5 cartas con personajes obtenidos de un archivo .json: 
+Vista detalles actualizada con mas datos sobre los personajes:
 
-https://jpg-fe-gc-rick-morty1.vercel.app/
+![image](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty2/assets/96839905/f270166a-2bd3-4523-87b2-3b8d0e7990c6)
 
-![70dc7cb87f8f793dec8175f080f9927c](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/7161d392-3c89-4e0a-9c89-0eb0663829fd)
+Vista del componente cards con mas personajes añadidos mediante la API (home):
 
-2- Vista del componente characters , que selecciona aleatoriamente 3 de esos 5 personajes y los muestra en pantalla: 
+![image](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty2/assets/96839905/a9981f83-ee17-4682-aef2-8a28b87f67f1)
 
-https://jpg-fe-gc-rick-morty1.vercel.app/characters
+Vista del nuevo componente search que implementa la funcionalidad de barra de busqueda del navbar junto con la pipe para filtrar los resultados:
 
-![12045d0247440d517e0f9d776a9bfc3c](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/786853bb-98b6-4b0f-be90-fa291e315c70)
+![image](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty2/assets/96839905/32e90b95-b516-4d61-8385-1446d4746244)
 
-3- Vista del componente details que muestra los datos del personaje de la carta correspondiente (ruta: character/X):
+Código del servicio y pipe utilizados:
 
-https://jpg-fe-gc-rick-morty1.vercel.app/characters
-
-![83a1343e3824e7dc1369c42c428c02ea](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/f27e0929-2505-4f91-bd95-5f41a61efacd)
-
-4- Vista del componente register que es bàsicamente un formulario para registrarte como usuario:
-
-https://jpg-fe-gc-rick-morty1.vercel.app/register
-
-![e6f88e8d6fe0e29d5b3a0fc246833155](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/48f2552e-1ba0-4c1e-954f-ca6d9226a9ee)
-
-5- Vista del componente login que es bàsicamente un formulario de login:
-
-https://jpg-fe-gc-rick-morty1.vercel.app/login
-
-![f4ab972fe42f561e2b63c4c284a5abd5](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/5d7010d4-c55b-4ac5-b385-eb092a908428)
-
+![600fae23bb9ce7df4b9feb577c887dde](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty2/assets/96839905/5adadaec-eff3-422d-8d07-76c6b74828ac)
+![6a5ebc2e0d356ca0414f0bf87e09f24b](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty2/assets/96839905/5cb30ebc-4ddd-40d9-a02b-fe177e325fa3)
