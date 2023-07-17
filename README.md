@@ -2,11 +2,11 @@
 
 ### Esta es la continuación del proyecto de la web de Rick y Morty, esta vez en vez de usar un archivo .json como fuente de datos he creado un servicio y una pipe para recoger la información necesaria de la API de Rick y Morty:
 
-Vista detalles actualizada con mas datos sobre los personajes:
+Vista detalles actualizada con mas datos sobre los personajes: https://main.d3j44jvq3t8uf4.amplifyapp.com/character/7
 
 ![image](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty2/assets/96839905/f270166a-2bd3-4523-87b2-3b8d0e7990c6)
 
-Vista del componente cards con mas personajes añadidos mediante la API (home):
+Vista del componente cards con mas personajes añadidos mediante la API (home): https://main.d3j44jvq3t8uf4.amplifyapp.com/cards
 
 ![image](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty2/assets/96839905/a9981f83-ee17-4682-aef2-8a28b87f67f1)
 
