@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
-
-
+import { FormsModule } from '@angular/forms';
+import { RickMortyService } from './rick-morty.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +16,7 @@ import { RegisterComponent } from './register/register.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { DetailsComponent } from './details/details.component';
 import { FilterPipe } from './filter.pipe';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,9 @@ import { FilterPipe } from './filter.pipe';
     RegisterComponent,
     MainLayoutComponent,
     DetailsComponent,
-    FilterPipe
+    FilterPipe,
+    SearchComponent,
+    
     
     
   ],
@@ -37,6 +40,7 @@ import { FilterPipe } from './filter.pipe';
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule
     
   ],
   providers: [],

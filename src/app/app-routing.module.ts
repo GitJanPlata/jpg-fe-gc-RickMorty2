@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { DetailsComponent } from './details/details.component';
+import { SearchComponent } from './search/search.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -23,7 +24,8 @@ const routes: Routes = [
       { path: 'cards', component: CardsComponent },
       { path: 'characters', component: CharactersComponent },
       { path: 'about-us', component: AboutUsComponent },
-      { path: 'character/:id', component: DetailsComponent }
+      { path: 'character/:id', component: DetailsComponent },
+      { path: 'search', component: SearchComponent },
     ] 
   }
 ];

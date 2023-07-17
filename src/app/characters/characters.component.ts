@@ -22,8 +22,7 @@ export class CharactersComponent implements OnInit {
       }
   
       // Tomar los primeros 6 personajes de la lista mezclada
-      this.characters = allCharacters.slice(0, 6);
+      this.characters = allCharacters.slice(0, 8);
     });
   }
-  
 }

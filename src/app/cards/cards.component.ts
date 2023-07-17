@@ -8,6 +8,7 @@ import { RickMortyService } from '../rick-morty.service';
 })
 export class CardsComponent implements OnInit {
   characters: any[] = [];
+  searchTerm: string = '';
 
   constructor(private rickMortyService: RickMortyService) { }
 

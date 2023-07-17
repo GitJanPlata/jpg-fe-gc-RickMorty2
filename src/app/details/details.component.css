@@ -9,6 +9,7 @@ p{
     font-size: 20px;
 }
 img{
+    border-radius: 5px;
     margin-bottom: 3% ;
     margin-top: 3% ;
 }
